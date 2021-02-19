@@ -1,1 +1,29 @@
-A do něj začněte mapovat budoucí data.
+# 1. Předmět
+- zkratka_predmetu: string
+- nazev:string
+- Vyucujici: Zamestnanec
+- pocet_prednasek: short
+- pocet_seminaru: short
+- pocet_cviceni: short
+- doba_vyuky_tyden: int
+- jazyk_studia: JazykStudiaEnum
+- typ_studia: TypStudiaEnum
+- zpusob_ukonceni: ZpusobUkonceniEnum
+- pocet_studentu: short 
+# 2. Zaměstnanec
+- krestni_jmeno: string
+- prijmeni: string
+- osobni_mobil: string
+- pracovni_mobil: string
+- pracovni_email: string
+- doktorat: boolean
+- typ_uvazku: TypUvazkuEnum
+- uvazek_cz: int
+- uvazek_eng: int
+# 3. Studentská skupina
+- nazev: string
+- zkratka: string
+- typ_predmetu: TypPredmetuEnum
+- rok_studia: short
+- typ_semestru: TypSemestruEnum
+- pocet_studentu: int
